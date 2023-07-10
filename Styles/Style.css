@@ -1,0 +1,20 @@
+.hed{
+  
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.pra{
+
+width: 634px;
+
+flex-shrink: 0;
+}
+
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;  align-items: center;
+    justify-content: space-between;
+}
