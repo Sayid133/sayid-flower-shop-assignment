@@ -68,9 +68,13 @@
      display: flex;
 }
 .second-banner{
+    display: flex;
+    border: 10px;
+
+}
+.second-banner-text{
     background-color: rgb(127, 196, 196);
     padding: 30px 30px 0px 150px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
