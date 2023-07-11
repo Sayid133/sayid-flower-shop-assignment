@@ -1,6 +1,6 @@
 .first-banner{
     background-color: blanchedalmond;
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 0px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +40,13 @@
     font-family: Lato;
     font-size: 18px;
 }
+
+.video{
+    position: relative;
+    margin: 10px 20px;
+    color: rgb(168, 16, 87);
+    left: 50px;
+}
 .fig-text{
     color: #272727;
     text-align: center;
@@ -59,7 +66,6 @@
 }
 #image{
      display: flex;
-     margin: 00px 300px;
 }
 .second-banner{
     background-color: rgb(127, 196, 196);
@@ -70,11 +76,9 @@
 }
 .second-headline{
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 40px;
+    font-weight: 800;
+
 }
 .second-paragraph{
     color: rgba(39, 39, 39, 0.60);   
@@ -86,49 +90,64 @@ line-height: normal;
 .second-imgage{
     width: 342px;
     height: 396px;
-    flex-shrink: 0;
     display: flex;
-    margin: 00px 200px;
 }
 .flower{margin: 30px;
 }
 
-.subscribe{
-    width: 1440px;
-height: 449px;
-position: relative;
-left: 200px;
+.subscribe-banner{
+    width: 1370px;
+    height: 449px;
+    position: relative;
     background-image: url("../image/Rectangle\ 9.png");
 }
  .deal-title{
     color: #272727;
     text-align: center;
-   
     font-size: 40px;
-  
     font-weight: 800;
-    
-    
 }
 
 .coupon{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-  
     font-size: 18px;
-   
     font-weight: 400;
     line-height: 30px;
- 
 } 
 
-.sub-btn{    border-radius: 8px;
+.sub-btn{    
+    border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
     gap: 10px;
     position: relative;
 }   
-;
+.backround{
+    background-color: #272727;
+    width: 1370px;
+    height: 300px;
+
+}
+.section-title{
+    color: rgb(48, 138, 82);
+}
+.description{
+    color: rgb(105, 67, 20);
+}
+.text-flower{
+    color: rgb(212, 209, 26);
+}
+
+.coppy-rights{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 
